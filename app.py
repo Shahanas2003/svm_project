@@ -9,6 +9,8 @@ import joblib
 def load_model_and_vectorizer():
     # Load data
     data = pd.read_csv("emotions.csv")
+    data = data.sample(n=10000, random_state=42)
+
     X = data["text"]
     y = data["label"]
 
