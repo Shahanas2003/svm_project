@@ -18,7 +18,7 @@ Project Steps:
 2. Model Building:
 
    * Trained a Support Vector Machine classifier using LinearSVC
-   * Also attempted SVC with RBF kernel for comparison (optional and computationally expensive)
+   * Multiple kernel functions were tested: linear, radial basis function (RBF), polynomial, and sigmoid. Each kernel represents a different way of separating data in higher-dimensional space.
 
 3. Evaluation:
 
